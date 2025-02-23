@@ -5,8 +5,8 @@ Script to import DNS zones and records from ClouDNS to Terraform
 1. Create API key in ClouDNS (paid supscription required)
 2. Add key ID and password to environment variables
 3. Call script. It will import all zones and will create in current directory multiple files:
-- `zone-example.com.tf`: `resource`s for zone and all records
-- `zone-example.com-import.tf`: initial `import`s
+- `zone-example.com.tf`: `resource`'s for zone and all records
+- `zone-example.com-import.tf`: initial `import`'s. Can be removed after Terraform state is created.
 ```
 export CLOUDNS_AUTH_ID=_id_ CLOUDNS_PASSWORD=_password_
 bash import-from-cloudns-to-terraform.sh
