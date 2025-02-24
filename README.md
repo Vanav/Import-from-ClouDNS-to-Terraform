@@ -19,3 +19,9 @@ bash import-from-cloudns-to-terraform.sh
 - `priority` field is added only if needed.
 - `status` is added if record is disabled in ClouDNS UI, but it is read only field in current implementation of
 ClouDNS Terraform provider. You can comment out or delete this resources after import.
+- I don't use `terraform plan -generate-config-out=generated.tf`, because it generates a lot of empty fields,
+doesn't sort records and generates not user friendly resource names.
+
+## Resources
+- [Terraform ClouDNS provider](https://registry.terraform.io/providers/ClouDNS/cloudns/latest/docs/resources/dns_record)
+- [ClouDNS API](https://www.cloudns.net/wiki/article/46/)

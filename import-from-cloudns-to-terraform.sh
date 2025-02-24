@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Author: Ivan Vanyushkin <vanav@vanav.org>
+# Source: https://github.com/Vanav/Import-from-ClouDNS-to-Terraform
 
 set -o nounset -o errexit -o errtrace -o pipefail
 shopt -s inherit_errexit nullglob globstar dotglob
