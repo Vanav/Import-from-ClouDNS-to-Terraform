@@ -4,7 +4,7 @@
 
 <https://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" src="docs/assets/img/cc_by-nc-nd.svg" /></a>
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" /></a>
 
 You are free to:
 
