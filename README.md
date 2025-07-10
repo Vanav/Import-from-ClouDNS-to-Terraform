@@ -10,6 +10,9 @@ Script to import DNS zones and records from ClouDNS to Terraform
 ```
 export CLOUDNS_AUTH_ID=_id_ CLOUDNS_PASSWORD=_password_
 bash import-from-cloudns-to-terraform.sh
+terraform init -upgrade
+terraform plan
+terraform apply
 ```
 
 ## Features
